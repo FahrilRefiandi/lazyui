@@ -1,0 +1,47 @@
+{
+    "name": "ilsyaa/lazyui",
+    "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+    "keywords": [
+        "kodingin",
+        "livewire",
+        "datatables",
+        "tables",
+        "laravel",
+        "tailwind",
+        "lazy",
+        "ui",
+        "lazyui",
+        "lazycode",
+        "lazyexe",
+        "admin",
+        "dashboard"
+    ],
+    "homepage": "https://github.com/ilsyaa/lazyui",
+    "license": "MIT",
+    "type": "library",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LazyUI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ilsyaa",
+            "email": "ilham@koding.in",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LazyUI\\LazyServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2|^8.3|^8.4",
+        "livewire/livewire": "^3.6|dev-main",
+        "gehrisandro/tailwind-merge-laravel": "^1.3"
+    }
+}
